@@ -8,7 +8,7 @@ name: Build Dockerized Micro-FrontEnd-Login-App
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
 jobs:
   appbuild:
